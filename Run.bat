@@ -1,10 +1,10 @@
 
 
-set projectLocation=C:\Users\Amrittesh\Documents\Eclipse\mavenFrameWork
+set projectLocation=C:\Users\Amrittesh\Documents\Eclipse\java_framework
 
 cd %projectLocation%
 
-set classpath=%projectLocation%\src\test\java
+set classpath=%projectLocation%\bin;%projectLocation%\lib3\*
 
 java org.testng.TestNG %projectLocation%\testng.xml
 
